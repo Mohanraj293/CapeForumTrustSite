@@ -1,0 +1,226 @@
+<!--Navbar-->
+<mdb-navbar
+  SideClass="navbar fixed-top navbar-expand-lg navbar-dark pink darken-1"
+  [containerInside]="false"
+>
+  <!-- Navbar brand -->
+  <mdb-navbar-brand>
+    <a class="navbar-brand" href="#">
+      <img
+        src="../../favicon.ico"
+        height="30"
+        width="30"
+        class="d-inline-block align-top"
+        alt=""
+      />
+      CapeForum-YouTrust
+    </a>
+  </mdb-navbar-brand>
+
+  <!-- Collapsible content -->
+  <links>
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="">Home</a>
+      </li>
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="founder"
+          >About Founder</a
+        >
+      </li>
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="governance"
+          >Governance</a
+        >
+      </li>
+      <!-- Dropdown -->
+      <li
+        class="nav-item dropdown"
+        dropdown
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a
+          dropdownToggle
+          mdbWavesEffect
+          type="button"
+          class="nav-link dropdown-toggle waves-light"
+          mdbWavesEffect
+        >
+          Forums<span class="caret"></span
+        ></a>
+        <div
+          *dropdownMenu
+          class="dropdown-menu dropdown dropdown-primary"
+          role="menu"
+        >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            routerLink="research"
+            >Research Forum</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            routerLink="students"
+            >Students Forum</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            routerLink="teachers"
+            >Teachers Forum</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            routerLink="women"
+            >Women Forum</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            routerLink="farmers"
+            >Farmer Forum</a
+          >
+        </div>
+      </li>
+      <!-- Dropdown -->
+      <li
+        class="nav-item dropdown"
+        dropdown
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a
+          dropdownToggle
+          mdbWavesEffect
+          type="button"
+          class="nav-link dropdown-toggle waves-light"
+          mdbWavesEffect
+        >
+          Awards<span class="caret"></span
+        ></a>
+        <div
+          *dropdownMenu
+          class="dropdown-menu dropdown dropdown-primary"
+          role="menu"
+        >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Research award</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Teachers award</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Students award</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Entrepreneur award</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Women award</a
+          >
+          <a
+            class="dropdown-item waves-light"
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }"
+            mdbWavesEffect
+            >Other award</a
+          >
+        </div>
+
+        <!--  routerLink="research-award"
+            routerLink="teachers-award"
+            routerLink="students-award"
+            routerLink="entrepreneur-award"
+            routerLink="women-award"
+            routerLink="other-award"  -->
+      </li>
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="publications"
+          >Publications</a
+        >
+      </li>
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="memberships"
+          >Memberships</a
+        >
+      </li>
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="gallery"
+          >Activities</a
+        >
+      </li>
+      <!-- <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="news">News letter</a>
+      </li> -->
+      <li
+        class="nav-item"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        <a class="nav-link waves-light" mdbWavesEffect routerLink="contactus"
+          >Contact Us</a
+        >
+      </li>
+    </ul>
+    <!-- Links -->
+  </links>
+  <!-- Collapsible content -->
+</mdb-navbar>
+<!--/.Navbar-->
