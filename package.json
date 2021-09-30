@@ -1,6 +1,6 @@
 {
   "name": "cape-forum-trust-site",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,8 +12,8 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~11.2.1",
-    "@angular/cli": "~10.2.3",
-    "@angular/cdk": "~10.2.3",
+    "@angular/cli": "~11.2.1",
+    "@angular/cdk": "~11.2.1",
     "@angular/common": "~11.2.1",
     "@angular/compiler": "~11.2.1",
     "@angular/core": "~11.2.1",
