@@ -6,4 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./publications.component.scss']
 })
 
-export class PublicationComponent { }
+export class PublicationComponent { 
+  handleButtonClick(pdfFileName: string) {
+    const pdfUrl = `../../assets/Publications-pdf/${pdfFileName}`;
+    window.open(pdfUrl, '_blank');
+  }
+}
