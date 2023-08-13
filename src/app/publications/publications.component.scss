@@ -1,25 +1,19 @@
-.body{
-    margin-top: 60px;
-    flex-wrap: wrap;
+.body {
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+table {
+  cursor: pointer;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 10px;
 }
 
-.image-item {
-    flex: 0 0 30%; /* Adjust this value to change the width of each item */
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+td,
+th {
+  text-align: left;
+  padding: 8px;
 }
-.image-title {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.view-pdf-button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+tr:hover {
+  background-color: #dddddd;
 }
