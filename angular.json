@@ -58,7 +58,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -81,11 +80,11 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "CapeForumTrustSite:build"
+            "buildTarget": "CapeForumTrustSite:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "CapeForumTrustSite:build:production"
+              "buildTarget": "CapeForumTrustSite:build:production"
             }
           }
         },
