@@ -1,4 +1,4 @@
-<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+<mdb-carousel [animation]="'fade'">
   <mdb-carousel-item>
     <div class="view w-100">
       <img
@@ -85,13 +85,13 @@
       </div>
       <div class="col-md-6 mb-4">
         <!-- Card -->
-        <mdb-card>
-          <mdb-card-header class="pink darken-1 white-text text-center py-4">
+        <div>
+          <div class=" card-header pink darken-1 white-text text-center py-4">
             <h6>
               <strong>News and Announcements</strong>
             </h6>
-          </mdb-card-header>
-          <mdb-card-body>
+          </div>
+          <div class="card-body">
             <marquee width="100%" direction="up" height="600px">
               <h6>
                 1.<a
@@ -177,8 +177,8 @@
               </h6>
               <br />
             </marquee>
-          </mdb-card-body>
-        </mdb-card>
+          </div>
+        </div>
         <!-- Material form subscription -->
       </div>
     </div>

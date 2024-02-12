@@ -140,7 +140,6 @@
       }
     }
   },
-  "defaultProject": "CapeForumTrustSite",
   "cli": {
     "analytics": false
   }
