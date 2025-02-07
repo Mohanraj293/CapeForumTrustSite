@@ -79,18 +79,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "CapeForumTrustSite:build"
+            "browserTarget": "CapeForumTrustSite:build"
           },
           "configurations": {
             "production": {
-              "buildTarget": "CapeForumTrustSite:build:production"
+              "browserTarget": "CapeForumTrustSite:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "CapeForumTrustSite:build"
+            "browserTarget": "CapeForumTrustSite:build"
           }
         },
         "test": {
